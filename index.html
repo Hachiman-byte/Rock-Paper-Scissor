@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rock Paper Scissor</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h2 id="display-winner"></h2>
+        <div id="main">
+            <div class="sections">
+                <h2 class="player">You</h2>
+                <div class="img-container">
+                    <img id="playerChoice" src="images/rock.png">
+                </div>
+                <h2 class="objectname" id="playerChoiceName"></h2>
+            </div>
+            <h1>VS</h1>
+            <div class="sections">
+                <h2 class="computer">Computer</h2>
+                <div class="img-container">
+                    <img id="computerChoice" src="images/rock.png">
+                </div>
+                <h2 class="objectname" id="comChoiceName"></h2>
+            </div>
+        </div>
+        <div id="choicesbtns">
+            <button class="choices" id="rock">Rock</button>
+            <button class="choices"  id="paper">Paper</button>
+            <button class="choices"  id="scissor">Scissor</button>
+            <button onclick="location.reload()">Restart</button>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
